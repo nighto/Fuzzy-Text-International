@@ -33,7 +33,7 @@ function readyCallback(event) {
 function showConfiguration(event) {
   onReady(function() {
     var opts = getOptions();
-    var url  = "http://static.sitr.us.s3-website-us-west-2.amazonaws.com/configure-fuzzy-text.html";
+    var url  = "http://nighto.github.io/Fuzzy-Text-International/resources/configure-fuzzy-text.html";
     Pebble.openURL(url + "#v=" + encodeURIComponent(VERSION) + "&options=" + encodeURIComponent(opts));
   });
 }
