@@ -38,7 +38,7 @@ const char* const HOURS_PT[] = {
  * A "*" character before a word makes that word bold.
  */
 const char* const RELS_PT[] = {
-  "$1",
+  "*$1 em ponto",
   "*$1 e cinco",
   "*$1 e dez",
   "*$1 e quinze",
